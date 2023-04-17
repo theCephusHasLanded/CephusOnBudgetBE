@@ -1,6 +1,10 @@
 # CephusOnBudgetBE
 <h1>Budgeting App Backend</h1>
-This is the backend for a budgeting app, built with [insert technology stack here].
+This is the backend for a budgeting app, built with 
+
+<h3><a href="https://reactjs.org/">React.js</a></h3>
+
+<h3><a href="https://expressjs.com/">Express.js</a></h3>
 
 <h2>Getting Started</h2>
 Clone this repository to your local machine.
