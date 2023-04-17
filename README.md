@@ -1,2 +1,2 @@
 # CephusOnBudgetBE
-The Backend Server
+The BackEnd Server
