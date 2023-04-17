@@ -30,4 +30,4 @@ PORT: The port number to run the server on.<br></br>
 Contributions are welcome! Please open an issue or submit a pull request.
 
 <h2>License</h2>
-This project is licensed w/ [Pursuit](https://www.pursuit.org/).
+This project is licensed w/ <a href="https://www.pursuit.org/">Pursuit</a>.
