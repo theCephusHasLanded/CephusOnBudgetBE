@@ -25,9 +25,9 @@
     <ul>
       <li>GET /transactions: Returns a list of all transactions.</li>
       <li>POST /transactions: Creates a new transaction.</li>
-      <li>GET /transactions/:id: Returns the transaction with the specified ID.</li>
-      <li>PUT /transactions/:id: Updates the transaction with the specified ID.</li>
-      <li>DELETE /transactions/:id: Deletes the transaction with the specified ID.</li>
+      <li>GET /transactions/: id: Returns the transaction with the specified ID.</li>
+      <li>PUT /transactions/: id: Updates the transaction with the specified ID.</li>
+      <li>DELETE /transactions/: id: Deletes the transaction with the specified ID.</li>
     </ul>
     <h2>Database</h2>
     <p>
