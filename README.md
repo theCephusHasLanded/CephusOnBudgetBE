@@ -8,7 +8,6 @@
     <h1>Budgeting App Backend</h1>
     <p>
       This is the backend for a budgeting app, built with
-      <h3><a href="https://reactjs.org/">React.js</a></h3>
       <h3><a href="https://expressjs.com/">Express.js</a></h3>
     </p>
     <h2>Getting Started</h2>
