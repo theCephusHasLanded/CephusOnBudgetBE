@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CephusOnBudgetBE</title>
+    Welcome to Module 4 9.4 Project by Cephus!
   </head>
   <body>
     <h1>Budgeting App Backend</h1>
