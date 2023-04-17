@@ -24,10 +24,10 @@ This app uses a [insert database technology here] database to store transactions
 <h2>Environment Variables</h2>
 The following environment variables are required to run the app:
 
-DATABASE_URL: The URL of the database.
-PORT: The port number to run the server on.
-Contributing
+DATABASE_URL: The URL of the database.<br></br>
+PORT: The port number to run the server on.<br></br>
+<h2>Contributing</h2>
 Contributions are welcome! Please open an issue or submit a pull request.
 
-License
+<h2>License</h2>
 This project is licensed w/ [Pursuit](https://www.pursuit.org/).
