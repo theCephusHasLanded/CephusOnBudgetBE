@@ -12,11 +12,11 @@ Start the development server by running npm run dev.
 The API should now be running on http://localhost:3000.
 
 <h2>API Endpoints</h2>
-•GET /transactions: Returns a list of all transactions.<br>
-•POST /transactions: Creates a new transaction.<br>
-•GET /transactions/:id: Returns the transaction with the specified ID.<br>
-•PUT /transactions/:id: Updates the transaction with the specified ID.<br>
-•DELETE /transactions/:id: Deletes the transaction with the specified ID.<br>
+•GET /transactions: Returns a list of all transactions.<br></br>
+•POST /transactions: Creates a new transaction.<br></br>
+•GET /transactions/: id: Returns the transaction with the specified ID.<br></br>
+•PUT /transactions/: id: Updates the transaction with the specified ID.<br></br>
+•DELETE /transactions/: id: Deletes the transaction with the specified ID.<br></br>
   
 <h2>Database</h2>
 This app uses a [insert database technology here] database to store transactions.
