@@ -1,4 +1,5 @@
-const app = require("./app.js")
+const express = require('express');
+const app = express();
 // this is the beginning of separating our concerns -- this is our first aspect where we are setting up our server
 
 //CONFIGURE💡!
