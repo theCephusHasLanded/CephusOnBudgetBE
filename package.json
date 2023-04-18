@@ -5,5 +5,24 @@
     "express": "^4.18.2",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22"
-  }
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "cephusonbudgetbe",
+  "description": "Welcome to Module 4 9.4 Project by Cephus!",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theCephusHasLanded/CephusOnBudgetBE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theCephusHasLanded/CephusOnBudgetBE/issues"
+  },
+  "homepage": "https://github.com/theCephusHasLanded/CephusOnBudgetBE#readme"
 }
