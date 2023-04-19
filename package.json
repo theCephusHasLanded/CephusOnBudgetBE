@@ -4,7 +4,8 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "uuidv4": "^6.2.13"
   },
   "scripts": {
     "start": "nodemon server.js"
@@ -13,7 +14,6 @@
   "description": "Welcome to Module 4 9.4 Project by Cephus!",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theCephusHasLanded/CephusOnBudgetBE.git"

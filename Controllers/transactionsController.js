@@ -1,11 +1,11 @@
 const express = require("express");
 const transactions = express.Router();
 const transactionsArray = require("../Models/transaction.js");
-const { validateURL } = require("../Models/validations.js");
+
 
 // GET all the entries in the database
-transactions.get("/", (req, res) => {
-  res.json(transactionsArray);
+transactions.get("/", (_, res) => {
+    res.json(transactionsArray);
 });
 
 // SHOW
@@ -14,11 +14,12 @@ transactions.get("/:arrayIndex", (req, res) => {
     res.json(transactionsArray[req.params.arrayIndex])
   } else {
     res.status(404).json({ error: "Not Found" })
-  }
+    response.redirect("*")
+  } 
 });
 
 // CREATE a new transaction
-transactions.post("/", validateURL, (req, res) => {
+transactions.post("/", (req, res) => {
   transactionsArray.push(req.body);
   res.json(transactionsArray[transactionsArray.length - 1])
 });
@@ -30,7 +31,7 @@ transactions.delete("/:arrayIndex", (req, res) => {
 });
 
 // UPDATE an existing transaction by array index
-transactions.put("/:arrayIndex", validateURL, async (req, res) => {
+transactions.put("/:arrayIndex", async (req, res) => {
   if (transactionsArray[req.params.arrayIndex]) {
    transactionsArray[req.params.arrayIndex] = req.body;
    res.status(200).json(transactionsArray[req.params.arrayIndex]);

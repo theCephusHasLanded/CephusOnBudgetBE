@@ -14,12 +14,12 @@ app.use(logger('dev'))
 app.use("/transactions", transactionsController);
 
 // Separation of concerns
-app.use((req, res, next) => {
-  console.log("This code runs for every request");
-  next();
-});
+// app.use((req, res, next) => {
+//   console.log("This code runs for every request");
+//   next();
+// });
 
-app.get("/", (req, res) => {
+app.get("/", (_, res) => {
   res.send("Welcome to the Transactions App");
 })
 
